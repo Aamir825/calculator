@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Calculator in JavaScript</title>
+</head>
+
+<body>
+    <div class="calculator-back">
+        <div class="topbar">
+            <div>
+                <p>11:21 PM</p>
+            </div>
+            <div>
+                <i class="ri-signal-tower-line"></i>
+                <i class="ri-wifi-line"></i>
+                <i class="ri-battery-low-line"></i>
+            </div>
+        </div>
+            <div class="input-area">
+                <input type="text" name="display" id="display" />
+                <input type="text" name="result" id="result"/>
+            </div>
+            <div class="buttons-area">
+                <div class="btn">
+                    <button class="top-signs" onclick="ClearData()">AC</button>
+                </div>
+                <div class="btn">
+                    <button class="top-signs" value="+/-">+/-</button>
+                </div>
+                <div class="btn">
+                    <button class="top-signs" value="%">%</button>
+                </div>
+                <div class="btn">
+                    <button class="signs" value="/">/</button>
+                </div>
+                <div class="btn">
+                    <button  value="7" >7</button>
+                </div>
+                <div class="btn">
+                    <button value="8">8</button>
+                </div>
+                <div class="btn">
+                    <button value="9">9</button>
+                </div>
+                <div class="btn">
+                    <button class="signs" value="*">x</button>
+                </div>
+                <div class="btn">
+                    <button value="4">4</button>
+                </div>
+                <div class="btn">
+                    <button value="5">5</button>
+                </div>
+                <div class="btn">
+                    <button value="6">6</button>
+                </div>
+                <div class="btn">
+                    <button class="signs" value="-">-</button>
+                </div>
+                <div class="btn">
+                    <button value="1">1</button>
+                </div>
+                <div class="btn">
+                    <button value="2">2</button>
+                </div>
+                <div class="btn">
+                    <button value="3">3</button>
+                </div>
+                <div class="btn">
+                    <button class="signs" value="+">+</button>
+                </div>
+                <div class="btn">
+                    <button value="()">()</button>
+                </div>
+                <div class="btn">
+                    <button value="0">0</button>
+                </div>
+                <div class="btn">
+                    <button value=".">.</button>
+                </div>
+                <div class="btn">
+                    <button value="" class="signs" onclick="Calculate()">=</button>
+                </div>
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
